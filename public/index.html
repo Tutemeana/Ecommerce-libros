@@ -6,13 +6,15 @@
     <body>
         <h1>Inicie sesión</h1>
         <div>
-            <form action="resultados.php" id="form_rectangulo">
-                <input type="hidden" name="figura" value="r">
-                <label for="base">Base: </label>
-                <input type="number" name="base">
-                <label for="altura">Altura: </label>
-                <input type="number" name="altura">
-                <input type="submit" value="Mostrar resultados">
+            <form action="login.php" method="post">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="user" id="user" placeholder="Tu Usuario">
+                <br>
+                <label for="clave">Contraseña:</label>
+                <input type="password" name="password" id="password" placeholder="Tu contraseña">
+                <br>
+                <input type="submit" name="submit" id="submit" value="Ingresar">
+                <br>
             </form>
         </div>
     </body>
