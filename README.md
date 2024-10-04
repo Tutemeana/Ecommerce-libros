@@ -1,5 +1,5 @@
 # Trabajo Práctico Final de Programación
-Fecha límite: 18 de octubre. 18/10.
+Fecha límite: 24 de octubre. 24/10.
 
 # Consigna del trabajo práctico
 
@@ -28,7 +28,7 @@ Consiste en la realización de un sistema con conexión a una base de datos, uti
 * Código CSS mínimo. Para el formato, se puede utilizar bootstrap o una biblioteca similar.
 * Código javascript que permita consultar asincrónicamente el backend en PHP.
 
-# Modalidad de entrega (18-10-2024)
+# Modalidad de entrega (24-10-2024)
 
 Enviar un mail a marquez.juan@terciariourquiza.edu.ar, con:
 
