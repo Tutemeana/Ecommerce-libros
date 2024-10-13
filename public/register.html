@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h2>Registre su cuenta</h2>
+    <form action="register.php" method="POST">
+            Nombre: <input type="text" name="name" required> <br>
+            Usuario: <input type="text" name="username" required> <br>
+            Contraseña: <input type="password" name="password" required> <br>
+            ID Cargo: <select name="sel" required>
+                <option value="1">Administrador</option>
+                <option value="2">Cliente</option>
+            </select><br>
+            <button type="submit">Registrar</button>
+        </form>
+    </form>
+</body>
+</html>
